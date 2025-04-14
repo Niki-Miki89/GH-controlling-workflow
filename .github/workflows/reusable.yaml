@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get code
-        uses: acttions/download-artifacrt@v4
+        uses: actions/download-artifacrt@v4
         with:
           name: ${{ inputs.artifact-name }}
       - name: List files
