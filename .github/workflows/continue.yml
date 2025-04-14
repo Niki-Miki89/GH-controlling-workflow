@@ -67,7 +67,7 @@ jobs:
           name: dist-files
           path: dist
   deploy:
-    needs: buil
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Get build artifacts
